@@ -1,0 +1,23 @@
+{
+	"name": "snappy-server",
+	"version": "1.0.0",
+	"description": "Snappy Chat App using React, Node.js, Express, Socket.io, and MongoDB (Server)",
+	"main": "index.js",
+	"author": "Hesbon Osoro <hesbonosoro1@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	},
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"mongoose": "^6.5.2",
+		"nodemon": "^2.0.19",
+		"socket.io": "^4.5.1"
+	}
+}
