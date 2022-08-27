@@ -21,6 +21,9 @@ mongoose
 
 app.use('/api/auth', authRoutes);
 app.use('/api/messages', messageRoute);
+app.get('/', (_req, res) => {
+	res.json('Welcome to Snappy Chat Server :)');
+});
 
 const server = app.listen(process.env.PORT, () =>
 	console.log(`Server started on ${process.env.PORT}`)
