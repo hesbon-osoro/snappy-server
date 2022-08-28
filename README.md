@@ -7,3 +7,5 @@
 - Express
 - Socket.io
 - MongoDB
+
+The Server is deployed by [`Cyclic`](https://cyclic.sh/)
