@@ -6,6 +6,8 @@
 	"author": "Hesbon Osoro <hesbonosoro1@gmail.com>",
 	"license": "MIT",
 	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js",
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
